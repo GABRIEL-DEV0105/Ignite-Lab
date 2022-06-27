@@ -18,10 +18,10 @@ export function Sidebar() {
   interface GetLessonsQueryResponse {
     lessons: {
       id: string;
-      title: string;
-      slug: string;
-      availableAt: string;
       lessonType: 'live' | 'class'
+      availableAt: string;
+      slug: string;
+      title: string;
     }[]
   }
 
